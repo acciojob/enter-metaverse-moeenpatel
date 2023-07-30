@@ -1,8 +1,5 @@
-/*  your css code here. If applicable */
-let  button=document.getElementById("enterBtn");
-
-button.addEventListener("click",()=>{
-	let para=document.getElementById("status");
-    para.innerHTML="<h1>Entered Metaverse</h1>";
-  }
-)
+function select() {
+	let p = document.getElementById("status");
+	p.innerHTML="<h1>Entered Metaverse</h1>";
+}
+document.getElementById("enterBtn").addEventListener("click",select);
